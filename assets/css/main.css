@@ -1107,6 +1107,10 @@ input, select, textarea {
 		line-height: calc(2.75rem - 2px);
 	}
 
+{
+    margin-bottom: 5px;
+}
+
 /* BG */
 /* Added the background image for all pages here, using `body` as the selector */
 /* This will ensure the image covers the entire page as a background */
