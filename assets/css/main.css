@@ -1107,8 +1107,8 @@ input, select, textarea {
 		line-height: calc(2.75rem - 2px);
 	}
 
-{
-    margin-bottom: 25px;
+.collapsible {
+    margin-bottom: 50px;
 }
 
 /* BG */
