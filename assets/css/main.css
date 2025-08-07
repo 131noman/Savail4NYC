@@ -1127,7 +1127,7 @@ body {
 
 body.is-preload {
     /* When the body has the 'is-preload' class, the background color is black. */
-    background-color: #000000;
+    background-color: #E4FF8A;
 }
 
 #bg {
@@ -1277,6 +1277,7 @@ flex-direction: column;
 -ms-align-items: center;
 align-items: center;
 -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter
+
 
 
 
