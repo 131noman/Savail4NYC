@@ -169,7 +169,7 @@ font-style: italic;
 }
 
 p {
-margin: 0 0 2rem 0;
+margin: 0 0 1rem 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -1277,5 +1277,6 @@ flex-direction: column;
 -ms-align-items: center;
 align-items: center;
 -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter
+
 
 
