@@ -1214,10 +1214,15 @@ body {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
+		/*
 		-moz-justify-content: space-between;
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
-		justify-content: space-between;
+		justify-content: space-between;*/
+		-moz-justify-content: flex-start;
+	-webkit-justify-content: flex-start;
+	-ms-justify-content: flex-start;
+	justify-content: flex-start;
 		position: relative;
 		min-height: 100vh;
 		width: 100%;
@@ -1270,6 +1275,7 @@ body {
 		-ms-align-items: center;
 		align-items: center;
 		-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter
+
 
 
 
