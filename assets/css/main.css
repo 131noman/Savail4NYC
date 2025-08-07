@@ -97,7 +97,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: ##E6FFED;
+		background: ##B8FFC7;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1270,6 +1270,7 @@ body {
 		-ms-align-items: center;
 		align-items: center;
 		-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter
+
 
 
 
