@@ -405,18 +405,18 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 			<script src="assets/js/main.js"></script>
 	
 window.addEventListener('beforeunload', function() {
-    // Select all your dropdown elements by their class
-    const dropdowns = document.querySelectorAll('.your-dropdown-class');
+    // Select all elements with the class 'collapsible'
+    const dropdowns = document.querySelectorAll('.collapsible');
     
-    // Loop through each dropdown and close it
+    // Loop through each one and remove the 'active' class
     dropdowns.forEach(dropdown => {
-        dropdown.classList.remove('active-or-show-class'); // Replace with your actual class name
+        if (dropdown.classList.contains('active')) {
+            dropdown.classList.remove('active');
+        }
     });
 });
 	</body>
 </html>
-
-
 
 
 
