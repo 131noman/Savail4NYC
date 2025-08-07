@@ -97,7 +97,12 @@ input, select, textarea {
 	}
 
 	body {
-		background: ##B8FFC7;
+		/*background: ##B8FFC7; */
+		    background-image: url("S-background.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1275,6 +1280,7 @@ body {
 		-ms-align-items: center;
 		align-items: center;
 		-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter
+
 
 
 
