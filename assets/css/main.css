@@ -1,10 +1,7 @@
-@import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
-
 /*
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+    Dimension by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
 html, body, div, span, applet, object,
@@ -97,12 +94,11 @@ input, select, textarea {
 	}
 
 	body {
-		/*background: ##B8FFC7; */
-		    background-image: url("../images/S-background.jpeg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+		background-image: url("../images/S-background.jpeg");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1113,25 +1109,11 @@ input, select, textarea {
 	}
 
 .collapsible {
-    margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 /* BG */
-/* Added the background image for all pages here, using `body` as the selector */
-/* This will ensure the image covers the entire page as a background 
 
-body {
-    background-image: url("Image/BK.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}*/
-
-/* The original #bg styles are now conflicting with the new body background,
-   so I've adjusted the `#bg:after` and `#bg:before` rules to not have a
-   background-image property. I also removed the background-image from the
-   `#bg:after` rule since it was using a placeholder image "bg.jpg". */
 #bg {
 	-moz-transform: scale(1.0);
 	-webkit-transform: scale(1.0);
@@ -1156,7 +1138,7 @@ body {
 		height: 100%;
 	}
 
-	/*#bg:before {
+	#bg:before {
 		-moz-transition: background-color 2.5s ease-in-out;
 		-webkit-transition: background-color 2.5s ease-in-out;
 		-ms-transition: background-color 2.5s ease-in-out;
@@ -1165,13 +1147,10 @@ body {
 		-webkit-transition-delay: 0.75s;
 		-ms-transition-delay: 0.75s;
 		transition-delay: 0.75s;
-		/* The linear-gradient is kept to provide the overlay effect */
-	/*	background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-		background-size: auto, 256px 256px;
-		background-position: center, center;
-		background-repeat: no-repeat, repeat;
+		/* Overlay color that will fade to transparent */
+		background-color: rgba(19, 21, 25, 0.5);
 		z-index: 2;
-	}*/
+	}
 
 	#bg:after {
 		-moz-transform: scale(1.125);
@@ -1182,7 +1161,7 @@ body {
 		-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 		-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 		transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-		/* The background-image has been removed here to avoid conflicting with the body background */
+		background-image: url("../images/S-background.jpeg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -1280,17 +1259,3 @@ body {
 		-ms-align-items: center;
 		align-items: center;
 		-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter
-
-
-
-
-
-
-
-
-
-
-
-
-
-
