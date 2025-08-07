@@ -1156,7 +1156,7 @@ body {
 		height: 100%;
 	}
 
-	#bg:before {
+	/*#bg:before {
 		-moz-transition: background-color 2.5s ease-in-out;
 		-webkit-transition: background-color 2.5s ease-in-out;
 		-ms-transition: background-color 2.5s ease-in-out;
@@ -1166,12 +1166,12 @@ body {
 		-ms-transition-delay: 0.75s;
 		transition-delay: 0.75s;
 		/* The linear-gradient is kept to provide the overlay effect */
-		background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
+	/*	background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
 		background-size: auto, 256px 256px;
 		background-position: center, center;
 		background-repeat: no-repeat, repeat;
 		z-index: 2;
-	}
+	}*/
 
 	#bg:after {
 		-moz-transform: scale(1.125);
@@ -1280,6 +1280,7 @@ body {
 		-ms-align-items: center;
 		align-items: center;
 		-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter
+
 
 
 
