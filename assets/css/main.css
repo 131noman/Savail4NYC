@@ -1113,7 +1113,7 @@ line-height: calc(2.75rem - 2px);
    The #bg element will be used for the transition effect. */
 
 body {
-    background-image: url("../../Image/S-background.jpeg");
+    background-image: url("../../Images/S-background.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1277,4 +1277,5 @@ flex-direction: column;
 -ms-align-items: center;
 align-items: center;
 -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter
+
 
