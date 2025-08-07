@@ -98,7 +98,7 @@ input, select, textarea {
 
 	body {
 		/*background: ##B8FFC7; */
-		    background-image: url("S-background.jpeg");
+		    background-image: url("../images/S-background.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1280,6 +1280,7 @@ body {
 		-ms-align-items: center;
 		align-items: center;
 		-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter
+
 
 
 
