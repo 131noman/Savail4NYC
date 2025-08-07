@@ -1164,7 +1164,7 @@ transition: background-color 2.5s ease-in-out;
 -ms-transition-delay: 0.75s;
 transition-delay: 0.75s;
 /* The linear-gradient is kept to provide the overlay effect */
-background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
+background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/S-background.jpeg");
 background-size: auto, 256px 256px;
 background-position: center, center;
 background-repeat: no-repeat, repeat;
@@ -1277,6 +1277,7 @@ flex-direction: column;
 -ms-align-items: center;
 align-items: center;
 -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter
+
 
 
 
