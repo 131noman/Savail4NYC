@@ -733,7 +733,7 @@ padding-left: 0.25em;
 
 ul {
 list-style: disc;
-margin: 0 0 2rem 0;
+margin: 0 0 1rem 0;
 padding-left: 1em;
 }
 
@@ -1277,6 +1277,7 @@ flex-direction: column;
 -ms-align-items: center;
 align-items: center;
 -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter
+
 
 
 
