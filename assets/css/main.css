@@ -97,7 +97,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #1b1f22;
+		background: #001952;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1113,14 +1113,16 @@ input, select, textarea {
 
 /* BG */
 /* Added the background image for all pages here, using `body` as the selector */
-/* This will ensure the image covers the entire page as a background */
+/* This will ensure the image covers the entire page as a background 
+
 body {
     background-image: url("Image/BK.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
+}*/
+
 /* The original #bg styles are now conflicting with the new body background,
    so I've adjusted the `#bg:after` and `#bg:before` rules to not have a
    background-image property. I also removed the background-image from the
@@ -1268,3 +1270,4 @@ body {
 		-ms-align-items: center;
 		align-items: center;
 		-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter
+
