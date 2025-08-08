@@ -1152,7 +1152,7 @@ line-height: calc(2.75rem - 2px);
 body {
     background-image: url("../../Images/S-background.jpeg");
     background-size: cover;
-    background-position: center;
+    background-position: -50px -100px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     /* This adds a transition to the background-color of the body, allowing for a smooth fade. */
@@ -1314,6 +1314,7 @@ flex-direction: column;
 -ms-align-items: center;
 align-items: center;
 -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter
+
 
 
 
