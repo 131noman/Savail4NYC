@@ -176,9 +176,10 @@ h1, h2, h3, h4, h5, h6 {
 color: #0A1109;
 font-weight: 600;
 line-height: 1.5;
-margin: 0 0 0.5rem 0;
+margin: 0 0 0.1rem 0;
 text-transform: uppercase;
 letter-spacing: 0.2rem;
+        text-align: center;
 }
 
 }
@@ -1280,6 +1281,7 @@ flex-direction: column;
 -ms-align-items: center;
 align-items: center;
 -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter
+
 
 
 
