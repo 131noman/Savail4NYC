@@ -1107,8 +1107,10 @@ line-height: calc(2.75rem - 2px);
 }
 
 .collapsible {
-    margin-bottom: 10px;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  margin-bottom: 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    /* Add this line to set a slightly opaque background color */
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 /* BG */
