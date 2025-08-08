@@ -1107,6 +1107,7 @@ line-height: calc(2.75rem - 2px);
 
 .collapsible {
     margin-bottom: 10px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 /* BG */
@@ -1279,6 +1280,7 @@ flex-direction: column;
 -ms-align-items: center;
 align-items: center;
 -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter
+
 
 
 
