@@ -1140,6 +1140,8 @@ line-height: calc(2.75rem - 2px);
   text-decoration: none;
   text-transform: uppercase;
   white-space: nowrap;
+  
+  margin-bottom: 20px; 
 }
 
 /* BG */
@@ -1312,6 +1314,7 @@ flex-direction: column;
 -ms-align-items: center;
 align-items: center;
 -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter
+
 
 
 
