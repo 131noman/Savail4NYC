@@ -1107,7 +1107,7 @@ line-height: calc(2.75rem - 2px);
 }
 
 .collapsible {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
     /* Add this line to set a slightly opaque background color */
     background-color: rgba(0, 100, 0, 0.3);
@@ -1122,7 +1122,7 @@ line-height: calc(2.75rem - 2px);
   -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  background-color: rgba(0, 100, 0, 0.5); /* Use the same dark green with opacity as before */
+  background-color: rgba(0, 100, 0, 0.3); /* Use the same dark green with opacity as before */
   border-radius: 4px;
   border: 0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5); /* This creates the raised shadow effect */
@@ -1141,7 +1141,7 @@ line-height: calc(2.75rem - 2px);
   text-transform: uppercase;
   white-space: nowrap;
   
-  margin-bottom: 20px; 
+  margin-bottom: 15px; 
 }
 
 /* BG */
@@ -1314,6 +1314,7 @@ flex-direction: column;
 -ms-align-items: center;
 align-items: center;
 -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter
+
 
 
 
