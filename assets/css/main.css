@@ -181,6 +181,10 @@ text-transform: uppercase;
 letter-spacing: 0.2rem;
 }
 
+h6 {
+    margin: 0 0 0.5rem 0;
+}
+
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 color: inherit;
 text-decoration: none;
@@ -1277,6 +1281,7 @@ flex-direction: column;
 -ms-align-items: center;
 align-items: center;
 -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter
+
 
 
 
