@@ -224,7 +224,7 @@ font-size: 0.7rem;
 }
 
 h6 {
-font-size: 0.6rem;
+font-size: 0.8rem;
 }
 
 @media screen and (max-width: 736px) {
@@ -1283,6 +1283,7 @@ flex-direction: column;
 -ms-align-items: center;
 align-items: center;
 -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter
+
 
 
 
