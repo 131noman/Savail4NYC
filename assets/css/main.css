@@ -1114,6 +1114,7 @@ line-height: calc(2.75rem - 2px);
     background-color: rgba(0, 100, 0, 0.3);
 }
 
+.nav-button 
 .nav-button {
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -1123,11 +1124,48 @@ line-height: calc(2.75rem - 2px);
   -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  background-color: rgba(0, 100, 0, 0.3); /* Use the same dark green with opacity as before */
+  background-color: rgba(0, 100, 0, 0.3);
   border-radius: 4px;
   border: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  color: #0A1109 !important;
+  cursor: pointer;
+  
+  /* Change display to inline-block */
+  display: inline-block;
+  
+  font-size: 0.7rem;
+  font-weight: 300;
+  height: 2.75rem;
+  letter-spacing: 0.2rem;
+  line-height: 2.75rem;
+  outline: 0;
+  
+  /* Adjust padding to make buttons narrower */
+  padding: 0 0.75rem;
+  
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  margin-bottom: 15px;
+}
+
+
+/*{
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  background-color: rgba(0, 100, 0, 0.3); /* Use the same dark green with opacity as before */
+  /*border-radius: 4px;
+  border: 0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5); /* This creates the raised shadow effect */
-  color: #ffffff !important;
+ /* color: #ffffff !important;
   cursor: pointer;
   display: block;
   font-size: 0.7rem;
@@ -1143,7 +1181,7 @@ line-height: calc(2.75rem - 2px);
   white-space: nowrap;
   
   margin-bottom: 15px; 
-}
+}*/
 
 /* BG */
 
@@ -1315,6 +1353,7 @@ flex-direction: column;
 -ms-align-items: center;
 align-items: center;
 -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter
+
 
 
 
