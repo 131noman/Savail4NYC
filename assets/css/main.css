@@ -1151,7 +1151,7 @@ line-height: calc(2.75rem - 2px);
 
 body {
     background-image: url("../../Images/S-background.jpeg");
-    background-size: cover;
+    background-size: 50%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -1314,6 +1314,7 @@ flex-direction: column;
 -ms-align-items: center;
 align-items: center;
 -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter
+
 
 
 
