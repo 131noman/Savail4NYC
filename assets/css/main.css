@@ -379,7 +379,7 @@ width: calc(100% - 1.5rem);
 nav {
   display: flex;
   justify-content: center;
-  gap: 1.5rem; /* Adjust this value to change the space between buttons */
+  gap: 2rem; /* Adjust this value to change the space between buttons */
   margin-top: 1rem; /* Optional: Add some space above the buttons */
   margin-bottom: 1rem; /* Optional: Add some space below the buttons */
 }
@@ -1361,6 +1361,7 @@ flex-direction: column;
 -ms-align-items: center;
 align-items: center;
 -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter
+
 
 
 
