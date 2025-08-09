@@ -384,9 +384,8 @@ nav {
   display: flex;
   justify-content: center;
   gap: 2rem; /* Adjust this value to change the space between buttons */
-  margin-top: 1rem; /* Optional: Add some space above the buttons */
-                font-size: 2rem; /* Adjust this value to your desired size */
-  margin-bottom: 1rem; /* Optional: Add some space below the buttons */
+        font-size: 2rem; /* Adjust this value to your desired size */
+ 
 }
 
 label {
@@ -1366,6 +1365,7 @@ flex-direction: column;
 -ms-align-items: center;
 align-items: center;
 -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter
+
 
 
 
