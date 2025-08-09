@@ -736,9 +736,6 @@ margin: 1.5rem 0;
 
 }
 
-.p1 {
-  height: 10px;
-}
 /* List */
 
 ol {
@@ -1369,5 +1366,4 @@ flex-direction: column;
 -ms-align-items: center;
 align-items: center;
 -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter
-
 
