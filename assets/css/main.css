@@ -1205,7 +1205,7 @@ line-height: calc(2.75rem - 2px);
    The #bg element will be used for the transition effect. */
 
 body {
-    background-image: url("../../Images/S3-Back.png");
+    background-image: url("../../Images/S3B.png");
     background-size: 50%;
     background-position: 50% 25%;
     background-repeat: no-repeat;
@@ -1256,7 +1256,7 @@ transition: background-color 2.5s ease-in-out;
 -ms-transition-delay: 0.75s;
 transition-delay: 0.75s;
 /* The linear-gradient is kept to provide the overlay effect */
-background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/S3-Back.png);
+background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/S3b.png);
 background-size: cover /*background-size: auto, 256px 256px;*/
 background-position: center, center;
 background-repeat: no-repeat, no-repeat;
@@ -1369,5 +1369,6 @@ flex-direction: column;
 -ms-align-items: center;
 align-items: center;
 -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter
+
 
 
