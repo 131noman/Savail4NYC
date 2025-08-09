@@ -170,10 +170,6 @@ em, i {
 }
 
 p {
-  background-color: rgba(240, 240, 240, 0.1);
-  padding: 1rem;
-  border-radius: 4px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
   margin: 0 0 1rem 0;
 }
 
@@ -1814,4 +1810,5 @@ body.is-article-visible #footer {
 .active:after {
     content: "\2212";
 }
+
 
