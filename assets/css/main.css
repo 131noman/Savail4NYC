@@ -1127,6 +1127,9 @@ line-height: calc(2.75rem - 2px);
     background-color: rgba(0, 100, 0, 0.3);
 }
 
+.spacer {
+  height: 20px; /* Adjust this value to your desired spacing */
+}
 .nav-button {
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -1366,3 +1369,4 @@ flex-direction: column;
 -ms-align-items: center;
 align-items: center;
 -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter
+
