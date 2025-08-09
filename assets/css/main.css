@@ -1114,7 +1114,6 @@ line-height: calc(2.75rem - 2px);
     background-color: rgba(0, 100, 0, 0.3);
 }
 
-.nav-button 
 .nav-button {
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -1353,6 +1352,7 @@ flex-direction: column;
 -ms-align-items: center;
 align-items: center;
 -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter
+
 
 
 
