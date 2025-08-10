@@ -188,6 +188,10 @@ margin: 0 0 0.1rem 0;
 text-transform: uppercase;
 letter-spacing: 0.2rem;
         text-align: center;
+        background-color: rgba(65, 105, 225, 0.7); /* Royal blue with 70% opacity */
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
 
 }
@@ -1384,6 +1388,7 @@ flex-direction: column;
 -ms-align-items: center;
 align-items: center;
 -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter
+
 
 
 
