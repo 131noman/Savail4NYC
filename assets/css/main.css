@@ -170,7 +170,7 @@ font-style: italic;
 }
 
 p {
-     margin: 0 0 1rem 0;
+     margin: 0 0 0.5rem 0;
 }
 
 .article-text-container {
@@ -1278,9 +1278,9 @@ height: 100%;
     -ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
     transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
     
-    background-image: url("../../images/SBG9.jpeg"); /* Set the image here */
+    background-image: url("../../images/SBG9.jpeg");
     background-position: center;
-    background-size: 100%; /* This is the key change */
+    background-size: cover; /* Change this to "cover" */
     background-repeat: no-repeat;
     z-index: 1;
 }
@@ -1376,6 +1376,7 @@ flex-direction: column;
 -ms-align-items: center;
 align-items: center;
 -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter
+
 
 
 
