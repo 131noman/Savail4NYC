@@ -1277,7 +1277,7 @@ height: 100%;
     
     background-image: url("../../images/SBG9.jpeg"); /* Set the image here */
     background-position: center;
-    background-size: 50%; /* This is the key change */
+    background-size: 80%; /* This is the key change */
     background-repeat: no-repeat;
     z-index: 1;
 }
@@ -1373,6 +1373,7 @@ flex-direction: column;
 -ms-align-items: center;
 align-items: center;
 -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter
+
 
 
 
