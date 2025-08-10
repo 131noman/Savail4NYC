@@ -1167,6 +1167,9 @@ line-height: calc(2.75rem - 2px);
   margin-bottom: 15px;
 }
 
+.Space {
+    height: 30px;
+}
 
 /*{
   -moz-appearance: none;
@@ -1370,6 +1373,7 @@ flex-direction: column;
 -ms-align-items: center;
 align-items: center;
 -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter
+
 
 
 
