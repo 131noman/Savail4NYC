@@ -1142,12 +1142,12 @@ line-height: calc(2.75rem - 2px);
   -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  background-color: rgba(0, 100, 0, 0.3);
+  background-color: rgba(65, 105, 225, .5);
   border-radius: 4px;
   border: 0;
         font-size: 2rem; /* Adjust this value to your desired size */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-  color: #0A1109 !important;
+  color: #ffffff !important;
   cursor: pointer;
   
   /* Change display to inline-block */
@@ -1168,6 +1168,9 @@ line-height: calc(2.75rem - 2px);
   text-transform: uppercase;
   white-space: nowrap;
   margin-bottom: 15px;
+}
+.nav-button:hover {
+    background-color: #4169E1; /* A slightly darker shade of royal blue for hover effect */
 }
 
 .Space {
@@ -1376,6 +1379,7 @@ flex-direction: column;
 -ms-align-items: center;
 align-items: center;
 -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter
+
 
 
 
