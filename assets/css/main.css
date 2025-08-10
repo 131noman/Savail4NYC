@@ -1286,7 +1286,7 @@ height: 100%;
     -ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
     transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
     
-    background-image: url("../../images/SBG9.jpeg");
+    background-image: url("../../images/SBG-10.jpeg");
     background-position: center;
     background-size: cover; /* Change this to "cover" */
     background-repeat: no-repeat;
@@ -1384,6 +1384,7 @@ flex-direction: column;
 -ms-align-items: center;
 align-items: center;
 -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter
+
 
 
 
