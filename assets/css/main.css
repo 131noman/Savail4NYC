@@ -170,11 +170,11 @@ font-style: italic;
 }
 
 p {
-background-color: rgba(240, 240, 240, 0.1);
-padding: 1rem;
-border-radius: 4px;
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-margin: 0 0 1rem 0;
+    background-color: rgba(65, 105, 225, 0.5); /* Royal blue with 50% opacity */
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    margin: 0 0 1rem 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -1370,6 +1370,7 @@ flex-direction: column;
 -ms-align-items: center;
 align-items: center;
 -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter
+
 
 
 
