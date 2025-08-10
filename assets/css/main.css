@@ -1270,7 +1270,6 @@ height: 100%;
     -webkit-transition-delay: 0.75s;
     -ms-transition-delay: 0.75s;
     transition-delay: 0.75s;
-    background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5));
     background-position: center;
     background-size: cover; /* Also use cover here for consistency */
     background-repeat: no-repeat;
@@ -1385,6 +1384,7 @@ flex-direction: column;
 -ms-align-items: center;
 align-items: center;
 -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter
+
 
 
 
